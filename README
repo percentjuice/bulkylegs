@@ -3,7 +3,7 @@ http://github.com/percentjuice/bulkylegs
 built on 16.04.2010
 
 INSTALLATION
-This is an AS3 project compiled in Flash Builder 4.  It works equally well with other compilers.  See LIBARARIES below for referenced libraries.
+This is an AS3 project compiled in Flash Builder 4.  The core 'model' code is not Flex-dependent, but integration with Robotlegs is Flex-dependent.  See LIBARARIES below for referenced libraries.
 Code in the 'model' and 'controller' directories merges the Robotlegs AS3 Micro-Architecture with BulkLoader's asset loading tools.  Simply replace the sample code in the 'view' and 'assets' directories with your own implementation.
 
 LIBRARIES
