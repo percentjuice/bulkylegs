@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:view="com.percentjuice.view.*" borderColor="0x777777" borderStyle="solid" backgroundColor="0XCCCCCC">
+
+   <mx:Tile id="repeaterMgr" direction="horizontal" tileWidth="220"
+        width="100%" height="100%" horizontalScrollPolicy="off" verticalScrollPolicy="on">
+        
+		<mx:Repeater id="r1" recycleChildren='true' >		 
+            <mx:VBox id="appThumb" horizontalScrollPolicy="off" verticalScrollPolicy="off">
+				<mx:Canvas id="imgBorder" styleName="borderThumb" width="220" height="200" 
+					horizontalScrollPolicy="off" verticalScrollPolicy="off">
+					<mx:Image id="img" source="{ Bitmap(r1.currentItem.bmp) }" horizontalCenter="0" verticalCenter="0" />
+				</mx:Canvas>
+				<mx:TextArea styleName="projectListItemName" selectable="false" wordWrap="true"
+					htmlText="{ String(r1.currentItem.id) }" />
+        	</mx:VBox>
+		</mx:Repeater> 
+		   	        
+	</mx:Tile> 
+</mx:Canvas>

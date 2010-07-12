@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%" verticalGap="10" >
+	<mx:Text id="loadedStatesLabel" styleName="loadingLabel" />
+    <mx:List id="loadedList" dataTipField="label" width="100%" height="100" />
+	<mx:Button id="unloadButton" width="100%" />
+	<mx:Spacer height="10" />
+	<mx:Text id="unloadedStatesLabel" styleName="loadingLabel" />
+    <mx:List id="unloadedList" width="100%" height="100"  />
+	<mx:Button id="loadMoreButton" width="100%" />
+</mx:VBox>
