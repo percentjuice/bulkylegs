@@ -1,10 +1,12 @@
 Bulklegs AS3
 http://github.com/percentjuice/bulkylegs
-built on 16.04.2010
+built 17.01.2010
+updated 16.04.2010
+updated 01.10.2010
+merges the Robotlegs AS3 Micro-Architecture with BulkLoader's asset loading tools and XML parsing.
 
 INSTALLATION
-This is an AS3 project compiled in Flash Builder 4.  The core 'model' code is not Flex-dependent, but integration with Robotlegs is Flex-dependent.  See LIBARARIES below for referenced libraries.
-Code in the 'model' and 'controller' directories merges the Robotlegs AS3 Micro-Architecture with BulkLoader's asset loading tools.  Simply replace the sample code in the 'view' and 'assets' directories with your own implementation.
+This is an AS3 library, a compiled swc is included.  It is built to be referenced independently, as a module.  See LIBARARIES below for referenced libraries.  Run test/BulkyLegsTestSuite.as to assess basic operation.
 
 LIBRARIES
 Robotlegs AS3 Micro-Architecture 

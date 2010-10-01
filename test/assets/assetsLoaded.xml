@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assetsLoaded>
+	<groups>
+		<group id='preload'>
+			<asset source="loaded/elko.jpg" />
+		</group>
+		<group id='nature'>
+			<asset source="loaded/anseladamswilderness.jpg" />
+			<asset source="loaded/losangeles.jpg" />
+			<asset source="loaded/seattle0.jpg" />
+			<asset source="loaded/switzerland.jpg" />
+			<asset source="loaded/cloudporch.jpg" />
+		</group>
+		<group id='structures'>
+			<asset source="loaded/munchen.jpg" />
+			<asset source="loaded/wien.jpg" />
+			<asset source="loaded/berlin.jpg" />
+			<asset source="loaded/dachau.jpg" />
+		</group>
+		<group id='people'>
+			<asset source="loaded/newwilmington.gif" />
+			<asset source="loaded/seattle1.jpg" />
+		</group>
+	</groups>
+	<languages>
+		<asset source="loaded/english.xml" />
+		<asset source="loaded/german.xml" />
+		<asset source="loaded/spanish.xml" />
+	</languages>
+</assetsLoaded>
