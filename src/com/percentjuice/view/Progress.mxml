@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%" verticalGap="10" >
-	<mx:Spacer height="40" />
-	<mx:ProgressBar id="progressBar" width="100%" maximum="1" mode="manual" />
-	<mx:Spacer height="40" />
-</mx:VBox>
