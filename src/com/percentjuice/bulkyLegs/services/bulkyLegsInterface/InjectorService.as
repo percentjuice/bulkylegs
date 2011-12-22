@@ -18,13 +18,14 @@
  */
 package com.percentjuice.bulkyLegs.services.bulkyLegsInterface
 {
+	import com.percentjuice.bulkyLegs.events.LoadRequestEvent;
 	import com.percentjuice.bulkyLegs.events.LoadedEvent;
 	import com.percentjuice.bulkyLegs.events.LoadingEvent;
-	import com.percentjuice.bulkyLegs.events.LoadRequestEvent;
+
+	import org.robotlegs.mvcs.Actor;
+
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
-	import org.robotlegs.base.EventMap;
-	import org.robotlegs.mvcs.Actor;
 	/**
 	 * This class is instantiated in BulkyLegsContext;
 	 * This is the interface for communicating with bulkyLegs as a module.

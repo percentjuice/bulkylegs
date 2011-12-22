@@ -46,7 +46,7 @@ package com.percentjuice.bulkyLegs
 	public class BulkyLegsContext extends Context
 	{
 		private var _assetsPath:String;
-		private var _injectorService:IInjectorService
+		private var _injectorService:IInjectorService;
 		/**
 		 * Initializes app.
 		 * @param assetsPath: assetsPath should point to the location of your MAPPINGFILEPATH.

@@ -1,6 +1,6 @@
-package com.percentjuice.bulkyLegsTests.events
+package com.percentjuice.bulkyLegs.events
 {
-	import com.percentjuice.bulkyLegsTests.vo.TestResultsO;
+	import com.percentjuice.bulkyLegs.vo.TestResultsO;
 
 	import flash.events.Event;
 

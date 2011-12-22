@@ -1,4 +1,4 @@
-package com.percentjuice.bulkyLegsTests.vo
+package com.percentjuice.bulkyLegs.vo
 {
 	import flash.utils.Dictionary;
 

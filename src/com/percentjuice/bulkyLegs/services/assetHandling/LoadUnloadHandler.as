@@ -151,7 +151,6 @@ package com.percentjuice.bulkyLegs.services.assetHandling
 			}
 			else
 			{
-				var load:Load = event.target as Load;
 				/* on group load complete:
 				 *		stores assets in proper Dictionary
 				 *		appends 'allUnloadedIds' data to LoadedEvent

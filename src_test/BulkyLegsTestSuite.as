@@ -1,10 +1,10 @@
 package
 {
 	import com.percentjuice.bulkyLegs.BulkyLegsContext;
+	import com.percentjuice.bulkyLegs.ITest;
+	import com.percentjuice.bulkyLegs.TestLoader;
+	import com.percentjuice.bulkyLegs.events.TestResultsEvent;
 	import com.percentjuice.bulkyLegs.services.bulkyLegsInterface.IInjectorService;
-	import com.percentjuice.bulkyLegsTests.ITest;
-	import com.percentjuice.bulkyLegsTests.TestLoader;
-	import com.percentjuice.bulkyLegsTests.events.TestResultsEvent;
 
 	import flash.display.Sprite;
 

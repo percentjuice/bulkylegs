@@ -99,7 +99,7 @@ package com.percentjuice.bulkyLegs.services.assetHandling.loadUnload.loaders.xml
 			var extensionSplit:Array = new Array();
 			extensionSplit = String(folderSplit[folderSplit.length-1]).split('.');
 			var name:String = extensionSplit[0];
-			if (name.length == 0) {throw new Error(ERROR_XMLFORMAT)};
+			if (name.length == 0) {throw new Error(ERROR_XMLFORMAT);}
 			return name;				
 		}
 

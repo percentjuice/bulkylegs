@@ -35,7 +35,7 @@ package com.percentjuice.bulkyLegs.services.assetHandling.loadUnload.loaders.xml
 		{
 			var langXML:XML = bulkLoader.getXML(bulkLoaderKey);
 			/* if XML contains <text> child */
-			if (langXML.text.length())
+			if (langXML.text.length)
 			{
 				languageText = new Dictionary(true);
 

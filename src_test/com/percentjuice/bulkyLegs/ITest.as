@@ -1,4 +1,4 @@
-package com.percentjuice.bulkyLegsTests
+package com.percentjuice.bulkyLegs
 {
 	public interface ITest
 	{

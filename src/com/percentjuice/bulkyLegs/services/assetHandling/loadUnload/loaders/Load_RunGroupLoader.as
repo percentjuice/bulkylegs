@@ -19,7 +19,6 @@
 package com.percentjuice.bulkyLegs.services.assetHandling.loadUnload.loaders
 {
 	import com.percentjuice.bulkyLegs.services.assetHandling.loadUnload.loaders.xmlLoading.*;
-	import com.percentjuice.bulkyLegs.services.assetHandling.vo.LoadObject;
 
 	import flash.events.Event;
 

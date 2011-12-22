@@ -1,10 +1,9 @@
-package com.percentjuice.bulkyLegsTests
+package com.percentjuice.bulkyLegs
 {
-	import com.percentjuice.bulkyLegs.BulkyLegsContext;
 	import com.percentjuice.bulkyLegs.events.LoadedEvent;
+	import com.percentjuice.bulkyLegs.events.TestResultsEvent;
 	import com.percentjuice.bulkyLegs.services.bulkyLegsInterface.IInjectorService;
-	import com.percentjuice.bulkyLegsTests.events.TestResultsEvent;
-	import com.percentjuice.bulkyLegsTests.vo.TestResultsO;
+	import com.percentjuice.bulkyLegs.vo.TestResultsO;
 
 	import flash.events.EventDispatcher;
 

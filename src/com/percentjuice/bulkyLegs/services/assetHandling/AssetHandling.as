@@ -119,7 +119,6 @@ package com.percentjuice.bulkyLegs.services.assetHandling
 		private function handleGroupLoading(event:ProgressEvent):void
 		{
 			var le:LoadingEvent = new LoadingEvent(event);
-			var le2:ProgressEvent = le as ProgressEvent;
 			dispatch(le);
 		}
 

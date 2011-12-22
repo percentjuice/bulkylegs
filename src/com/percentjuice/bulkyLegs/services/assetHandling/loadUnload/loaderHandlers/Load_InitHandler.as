@@ -20,9 +20,7 @@ package com.percentjuice.bulkyLegs.services.assetHandling.loadUnload.loaderHandl
 {
 	import com.percentjuice.bulkyLegs.events.LoadedEvent;
 	import com.percentjuice.bulkyLegs.services.assetHandling.loadUnload.loaders.Load_InitLoader;
-	import com.percentjuice.bulkyLegs.services.assetHandling.loadUnload.loaders.xmlLoading.*;
 
-	import flash.events.Event;
 	import flash.utils.Dictionary;
 
 	public class Load_InitHandler extends ALoaderHandler 
